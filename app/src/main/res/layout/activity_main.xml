@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LGM(LetsGrowMore)"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textSize="18sp"
+        android:padding="3dp"
+        android:layout_margin="3dp"
+        android:background="@color/purple_200"
+        android:textColor="@color/white"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Covid-19 Tracker: Indian Records"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textSize="18sp"
+        android:padding="3dp"
+        android:layout_margin="3dp"
+        android:background="@color/purple_200"
+        android:textColor="@color/white"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/RVstates"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        tools:listitem="@layout/statrelayout" />
+
+
+</LinearLayout>
