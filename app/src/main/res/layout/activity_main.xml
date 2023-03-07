@@ -10,26 +10,26 @@
         <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="LGM(LetsGrowMore)"
+        android:text="SRMS SETU"
         android:textAlignment="center"
         android:gravity="center_horizontal"
         android:textSize="18sp"
         android:padding="3dp"
         android:layout_margin="3dp"
         android:background="@color/purple_200"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Covid-19 Tracker: Indian Records"
+        android:text=" Indian Records"
         android:textAlignment="center"
         android:gravity="center_horizontal"
         android:textSize="18sp"
         android:padding="3dp"
         android:layout_margin="3dp"
         android:background="@color/purple_200"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         />
 
     <androidx.recyclerview.widget.RecyclerView
